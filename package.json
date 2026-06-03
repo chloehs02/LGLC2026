@@ -1,0 +1,10 @@
+{
+  "name": "lgl-conference-2026",
+  "version": "1.0.0",
+  "description": "Hope Malaysia LGL Conference 2026 Landing Page",
+  "scripts": {
+    "dev": "npx serve . -p 3456",
+    "build": "mkdir -p dist && cp index.html styles.css dist/ && cp -r data admin dist/ && (cp -r uploads dist/ 2>/dev/null || true) && cp *.png *.jpg *.jpeg dist/ 2>/dev/null || true",
+    "preview": "npx serve dist -p 3456"
+  }
+}

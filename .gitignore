@@ -1,0 +1,23 @@
+# Node packages
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large media files and docs requested by user
+*Screen Recording*
+docs/thumbs/Screen Recording*
+docs/lgl_conference_brand_kit_v3.pdf
+
+# Optional: Large presentation files (uncomment if you want to ignore)
+# docs/Blue and Black Modern Sunday Service Presentation.png
