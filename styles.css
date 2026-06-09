@@ -39,6 +39,7 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   overflow-x: hidden;
+  font-size: 16px;
 }
 body::before {
   content: '';
@@ -107,7 +108,7 @@ img { max-width: 100%; display: block; }
 }
 .nav-logo {
   font-family: 'Aileron', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700; font-size: 1.15rem; letter-spacing: 0.02em;
+  font-weight: 700; font-size: 1.25rem; letter-spacing: 0.02em;
   display: flex; align-items: center; gap: 10px;
 }
 .nav-logo-img {
@@ -116,7 +117,7 @@ img { max-width: 100%; display: block; }
 }
 .nav-links { display: flex; gap: 32px; align-items: center; }
 .nav-links a {
-  font-size: 0.85rem; font-weight: 500; color: var(--hero-text-secondary);
+  font-size: 1rem; font-weight: 500; color: var(--hero-text-secondary);
   transition: color 0.25s; position: relative;
 }
 .nav-links a:hover { color: #fff; }
@@ -127,7 +128,7 @@ img { max-width: 100%; display: block; }
 }
 .nav-links a:hover::after { width: 100%; }
 .nav-cta {
-  padding: 9px 22px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;
+  padding: 9px 22px; border-radius: 50px; font-size: 0.95rem; font-weight: 700;
   background: var(--gradient-gold); color: #0a0e17;
   transition: all 0.3s; border: none; cursor: pointer;
 }
@@ -169,7 +170,7 @@ img { max-width: 100%; display: block; }
 
 .hero-badge {
   display: inline-flex; align-items: center; gap: 8px;
-  padding: 8px 20px; border-radius: 50px; font-size: 0.75rem; font-weight: 600;
+  padding: 8px 20px; border-radius: 50px; font-size: 0.9rem; font-weight: 600;
   background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.25);
   color: var(--accent-gold-light); text-transform: uppercase; letter-spacing: 0.1em;
   margin-bottom: 12px; animation: fadeInDown 0.8s ease;
@@ -211,13 +212,13 @@ img { max-width: 100%; display: block; }
 }
 .hero-meta-item {
   display: flex; align-items: center; gap: 8px;
-  font-size: 0.9rem; color: var(--hero-text-secondary);
+  font-size: 1.05rem; color: var(--hero-text-secondary);
 }
 .hero-meta-item svg { width: 18px; height: 18px; color: var(--accent-gold); }
 .hero-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; animation: fadeInUp 0.8s ease 0.85s both; }
 .btn-primary, .btn-secondary {
   display: inline-flex; align-items: center; gap: 8px; justify-content: center;
-  padding: 15px 36px; border-radius: 50px; font-size: 0.95rem; font-weight: 600;
+  padding: 15px 36px; border-radius: 50px; font-size: 1.05rem; font-weight: 600;
   color: #ffffff; cursor: pointer; transition: all 0.3s ease;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
@@ -249,7 +250,7 @@ img { max-width: 100%; display: block; }
 .section-header { text-align: center; margin-bottom: 60px; }
 .section-label {
   display: inline-block;
-  font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+  font-size: 0.9rem; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.15em; color: var(--accent-gold);
   margin-bottom: 12px;
 }
@@ -258,7 +259,7 @@ img { max-width: 100%; display: block; }
   font-size: clamp(2.4rem, 6vw, 3.2rem); font-weight: 700;
   line-height: 1.15; letter-spacing: -0.02em;
 }
-.section-subtitle { color: var(--text-secondary); font-size: 1rem; max-width: 600px; margin: 14px auto 0; line-height: 1.7; }
+.section-subtitle { color: var(--text-secondary); font-size: 1.1rem; max-width: 600px; margin: 14px auto 0; line-height: 1.7; }
 
 /* Light Section Theme removed for unified dark theme */
 
@@ -301,9 +302,9 @@ img { max-width: 100%; display: block; }
 .bento-card .card-icon svg { width: 22px; height: 22px; color: var(--accent-gold); }
 .bento-card h3 {
   font-family: 'Aileron', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.15rem; font-weight: 700; margin-bottom: 10px;
+  font-size: 1.25rem; font-weight: 700; margin-bottom: 10px;
 }
-.bento-card p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.65; }
+.bento-card p { font-size: 1rem; color: var(--text-secondary); line-height: 1.65; }
 .bento-span-2 { grid-column: span 2; }
 .bento-span-full { grid-column: 1 / -1; }
 
@@ -312,7 +313,7 @@ img { max-width: 100%; display: block; }
   display: flex; justify-content: center; gap: 8px; margin-bottom: 48px; flex-wrap: wrap;
 }
 .schedule-tab {
-  padding: 10px 28px; border-radius: 50px; font-size: 0.82rem; font-weight: 600;
+  padding: 10px 28px; border-radius: 50px; font-size: 0.95rem; font-weight: 600;
   background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--text-secondary); cursor: pointer; transition: all 0.3s;
   backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
@@ -373,11 +374,11 @@ img { max-width: 100%; display: block; }
   background: var(--accent-blue); border: 3px solid var(--bg-primary);
 }
 .timeline-time {
-  font-size: 0.78rem; font-weight: 700; color: var(--accent-blue-light);
+  font-size: 0.9rem; font-weight: 700; color: var(--accent-blue-light);
   text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;
 }
-.timeline-event { font-weight: 600; font-size: 0.95rem; }
-.timeline-note { font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px; font-style: italic; }
+.timeline-event { font-weight: 600; font-size: 1.05rem; }
+.timeline-note { font-size: 0.92rem; color: var(--text-secondary); margin-top: 4px; font-style: italic; }
 
 /* --- Leadership Cards --- */
 .leadership-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
@@ -403,15 +404,15 @@ img { max-width: 100%; display: block; }
 .venue-map iframe { width: 100%; height: 100%; border: 0; filter: grayscale(0.6) brightness(0.8) contrast(1.1); }
 .venue-info h3 {
   font-family: 'Aileron', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.6rem; font-weight: 700; margin-bottom: 8px;
+  font-size: 1.8rem; font-weight: 700; margin-bottom: 8px;
 }
-.venue-info .venue-address { color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 24px; line-height: 1.6; }
+.venue-info .venue-address { color: var(--text-secondary); font-size: 1rem; margin-bottom: 24px; line-height: 1.6; }
 .venue-features { display: flex; flex-direction: column; gap: 14px; }
 .venue-feature {
   display: flex; align-items: center; gap: 12px;
   padding: 14px 18px; border-radius: var(--radius-md);
   background: var(--bg-glass); border: 1px solid var(--border-glass);
-  font-size: 0.88rem; transition: all 0.3s;
+  font-size: 1rem; transition: all 0.3s;
 }
 .venue-feature:hover { border-color: rgba(201,168,76,0.2); }
 .venue-feature svg { width: 20px; height: 20px; color: var(--accent-gold); flex-shrink: 0; }
@@ -466,9 +467,9 @@ img { max-width: 100%; display: block; }
   flex-direction: column;
   flex-grow: 1;
 }
-.hotel-card h4 { font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; color: var(--text-primary); }
+.hotel-card h4 { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; color: var(--text-primary); }
 .hotel-card .hotel-distance { 
-  font-size: 0.75rem; 
+  font-size: 0.88rem; 
   color: var(--accent-gold); 
   font-weight: 600; 
   margin-bottom: 12px; 
@@ -476,7 +477,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.05em;
 }
 .hotel-card p { 
-  font-size: 0.85rem; 
+  font-size: 1rem; 
   color: var(--text-secondary); 
   line-height: 1.6; 
   margin-bottom: 0;
@@ -484,7 +485,7 @@ img { max-width: 100%; display: block; }
 .hotel-card .hotel-contact {
   margin-top: auto;
   padding-top: 12px;
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   color: var(--text-muted);
 }
 .hotel-card .hotel-contact a {
@@ -509,20 +510,20 @@ img { max-width: 100%; display: block; }
 }
 .news-date .day {
   font-family: 'Aileron', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.6rem; font-weight: 800; color: var(--accent-electric); line-height: 1;
+  font-size: 1.8rem; font-weight: 800; color: var(--accent-electric); line-height: 1;
 }
 .news-date .month {
-  font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+  font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
   letter-spacing: 0.08em; color: var(--text-secondary); margin-top: 4px;
 }
 .news-card .news-body { flex: 1; }
 .news-card .news-body h3 {
   font-family: 'Aileron', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; line-height: 1.35;
+  font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.35;
 }
-.news-card .news-body p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 12px; }
+.news-card .news-body p { font-size: 1rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 12px; }
 .news-card .news-body .news-detail {
-  font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px;
+  font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px;
 }
 .news-card .news-body .news-detail strong { color: var(--text-secondary); }
 
@@ -570,11 +571,11 @@ img { max-width: 100%; display: block; }
 }
 .news-header-meta h3 {
   font-family: 'Aileron', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.15rem; font-weight: 700; line-height: 1.35; margin: 0;
+  font-size: 1.3rem; font-weight: 700; line-height: 1.35; margin: 0;
 }
 .btn-download {
   display: inline-flex; align-items: center; gap: 8px; justify-content: center;
-  padding: 10px 22px; border-radius: 50px; font-size: 0.8rem; font-weight: 600;
+  padding: 10px 22px; border-radius: 50px; font-size: 0.95rem; font-weight: 600;
   color: #ffffff; cursor: pointer; transition: all 0.3s ease;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
@@ -759,7 +760,7 @@ img { max-width: 100%; display: block; }
   text-align: center; position: relative; z-index: 2;
   color: var(--hero-text);
 }
-.footer p { font-size: 0.78rem; color: var(--hero-text-secondary); }
+.footer p { font-size: 0.95rem; color: var(--hero-text-secondary); }
 .footer a { color: var(--accent-gold); transition: color 0.2s; }
 .footer a:hover { color: var(--accent-gold-light); }
 
@@ -814,7 +815,7 @@ img { max-width: 100%; display: block; }
   .nav-links.open { 
     transform: translateX(0); 
   }
-  .nav-links a { font-size: 1.1rem; }
+  .nav-links a { font-size: 1.2rem; }
   .nav-toggle { display: flex; }
   .bento-grid, .hotels-grid { grid-template-columns: 1fr; }
   .bento-span-2 { grid-column: span 1; }
@@ -853,7 +854,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 480px) {
   .hero-actions { flex-direction: column; width: 100%; padding: 0 24px; }
   .hero-actions a { width: 100%; text-align: center; }
-  .venue-info h3 { font-size: 1.4rem; }
+  .venue-info h3 { font-size: 1.6rem; }
   .hotel-card { padding: 20px; }
 }
 
