@@ -1,7 +1,18 @@
 {
   "news_items": [
     {
-      "title": "REGISTRATION ALERT: 342 LEADERS REGISTERED!",
+      "title": "REGISTRATION IS NOW CLOSED",
+      "date": "2 July",
+      "cover": "CLOSED REGISTRATION_Whatsapp (2).png",
+      "target_group": "",
+      "venue": "",
+      "status": "",
+      "button_text": "",
+      "button_link": "",
+      "description": "Thank you to all who have registered for the <strong>Hope Malaysia LGL Conference 2026</strong>! Registration is now officially closed. We look forward to seeing all our registered leaders at Hope Kuala Lumpur on <strong>August 29–31, 2026</strong> for a powerful weekend of Refresh, Refuel, and Recommit."
+    },
+    {
+      "title": "REGISTRATION ALERT: 400+ LEADERS REGISTERED!",
       "date": "02 Jun",
       "cover": "lgl-reg-number.jpeg",
       "target_group": "Assistant Life Group Leaders (ALGLs), Life Group Leaders (LGLs), and above.",
@@ -9,7 +20,7 @@
       "status": "*Limited seats remaining!",
       "button_text": "Join Now",
       "button_link": "https://docs.google.com/forms/d/e/1FAIpQLScJ7zN_5Guvj9WzT2xZsrhptl_SWC9BO1tpsGvprpVPUfP47A/viewform",
-      "description": "Excitement is building for the <strong>Hope Malaysia Life Group Leader Conference 2026</strong>! We are thrilled to announce that <strong>342 Adults</strong> have officially registered to join us on this pivotal weekend. With seats filling up rapidly, we are approaching maximum capacity for our venue at Hope Kuala Lumpur.<br><br>This conference will be a cornerstone event designed to <strong>Refresh, Refuel, and Recommit</strong> our hearts to ministry. Through powerful plenaries and deep fellowship, leaders will be equipped across our four focus pillars: <strong>Equiping</strong>, <strong>Growth</strong>, <strong>Inspiration</strong>, and <strong>Fellowship</strong>."
+      "description": "Excitement is building for the <strong>Hope Malaysia Life Group Leader Conference 2026</strong>! We are thrilled to announce that <strong>400+Adults</strong> have officially registered to join us on this pivotal weekend. With seats filling up rapidly, we are approaching maximum capacity for our venue at Hope Kuala Lumpur.<br><br>This conference will be a cornerstone event designed to <strong>Refresh, Refuel, and Recommit</strong> our hearts to ministry. Through powerful plenaries and deep fellowship, leaders will be equipped across our four focus pillars: <strong>Equiping</strong>, <strong>Growth</strong>, <strong>Inspiration</strong>, and <strong>Fellowship</strong>."
     },
     {
       "title": "INFORMATION PACK HOPE MALAYSIA LGL CONFERENCE 2026",
