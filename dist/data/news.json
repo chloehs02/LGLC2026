@@ -1,7 +1,29 @@
 {
   "news_items": [
     {
-      "title": "REGISTRATION ALERT: 342 LEADERS REGISTERED!",
+      "title": "CONFERENCE GUIDE IS NOW AVAILABLE!",
+      "date": "17 Aug",
+      "cover": "Conference Guide (Digital).pptx.png",
+      "target_group": "",
+      "venue": "",
+      "status": "",
+      "button_text": "Click Here to Download",
+      "button_link": "https://drive.google.com/file/d/1W2G_-2F8NKTxKJY17iUIGtnDIWq4y_gx/view?usp=sharing",
+      "description": "The <strong>Conference Guide for Hope Malaysia LGL Conference 2026</strong> is here! 🎉 Participants, please download and go through the guide for all the important details you need — including the schedule, sessions, venue information, and more. Don't miss out — <strong>download it now</strong> to be fully prepared for an amazing weekend ahead! 🙌"
+    },
+    {
+      "title": "REGISTRATION IS NOW CLOSED",
+      "date": "2 July",
+      "cover": "CLOSED REGISTRATION_Whatsapp (2).png",
+      "target_group": "",
+      "venue": "",
+      "status": "",
+      "button_text": "",
+      "button_link": "",
+      "description": "Thank you to all who have registered for the <strong>Hope Malaysia LGL Conference 2026</strong>! Registration is now officially closed. We look forward to seeing all our registered leaders at Hope Kuala Lumpur on <strong>August 29–31, 2026</strong> for a powerful weekend of Refresh, Refuel, and Recommit."
+    },
+    {
+      "title": "REGISTRATION ALERT: 400+ LEADERS REGISTERED!",
       "date": "02 Jun",
       "cover": "lgl-reg-number.jpeg",
       "target_group": "Assistant Life Group Leaders (ALGLs), Life Group Leaders (LGLs), and above.",
@@ -9,18 +31,7 @@
       "status": "*Limited seats remaining!",
       "button_text": "Join Now",
       "button_link": "https://docs.google.com/forms/d/e/1FAIpQLScJ7zN_5Guvj9WzT2xZsrhptl_SWC9BO1tpsGvprpVPUfP47A/viewform",
-      "description": "Excitement is building for the <strong>Hope Malaysia Life Group Leader Conference 2026</strong>! We are thrilled to announce that <strong>342 Adults</strong> have officially registered to join us on this pivotal weekend. With seats filling up rapidly, we are approaching maximum capacity for our venue at Hope Kuala Lumpur.<br><br>This conference will be a cornerstone event designed to <strong>Refresh, Refuel, and Recommit</strong> our hearts to ministry. Through powerful plenaries and deep fellowship, leaders will be equipped across our four focus pillars: <strong>Equiping</strong>, <strong>Growth</strong>, <strong>Inspiration</strong>, and <strong>Fellowship</strong>."
-    },
-    {
-      "title": "INFORMATION PACK HOPE MALAYSIA LGL CONFERENCE 2026",
-      "date": "19 May",
-      "cover": "info pack cover.png",
-      "target_group": "",
-      "venue": "",
-      "status": "",
-      "button_text": "Download Information Pack",
-      "button_link": "https://drive.google.com/file/d/1TzAwgL717DDKQP-V7rNYBeyaKapuYRMU/view?usp=sharing",
-      "description": "The official Information Pack for the Hope Malaysia LGL Conference 2026 is now available for download. This comprehensive booklet outlines essential details, including the daily program schedule, registration guidelines, payment information, hotel recommendations, and travel logistics. All Assistant Life Group Leaders and above are highly encouraged to download and review this pack before the conference."
+      "description": "Excitement is building for the <strong>Hope Malaysia Life Group Leader Conference 2026</strong>! We are thrilled to announce that <strong>400+Adults</strong> have officially registered to join us on this pivotal weekend. With seats filling up rapidly, we are approaching maximum capacity for our venue at Hope Kuala Lumpur.<br><br>This conference will be a cornerstone event designed to <strong>Refresh, Refuel, and Recommit</strong> our hearts to ministry. Through powerful plenaries and deep fellowship, leaders will be equipped across our four focus pillars: <strong>Equiping</strong>, <strong>Growth</strong>, <strong>Inspiration</strong>, and <strong>Fellowship</strong>."
     }
   ]
 }

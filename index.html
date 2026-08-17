@@ -653,10 +653,10 @@
       }
 
       newsContainer.innerHTML = items.map(item => {
-        const coverHtml = item.cover 
+        const coverHtml = item.cover
           ? `<div class="news-cover-wrapper"><img src="${item.cover}" alt="${item.title}" class="news-cover-img"></div>`
           : '';
-        
+
         const dateParts = item.date ? item.date.split(' ') : ['', ''];
         const day = dateParts[0] || '';
         const month = dateParts[1] || '';
@@ -665,8 +665,8 @@
         if (item.target_group) metaFields.push(`<div><strong style="color: var(--text-secondary);">Target Group:</strong> ${item.target_group}</div>`);
         if (item.venue) metaFields.push(`<div><strong style="color: var(--text-secondary);">Venue:</strong> ${item.venue}</div>`);
         if (item.status) metaFields.push(`<div><strong style="color: var(--text-secondary);">Status:</strong> ${item.status}</div>`);
-        
-        const metaHtml = metaFields.length > 0 
+
+        const metaHtml = metaFields.length > 0
           ? `<div class="news-divider" style="margin: 8px 0 18px 0;"></div>
              <div class="news-detail-meta" style="display: flex; flex-direction: column; gap: 6px; margin-bottom: 20px; font-size: 0.82rem; color: var(--text-muted);">
                ${metaFields.join('')}
